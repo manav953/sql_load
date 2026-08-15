@@ -1,5 +1,3 @@
-
-
 WITH top10_jobs AS (
 SELECT salary_year_avg, job_title, job_id,job_posted_date, job_schedule_type, job_location,name AS company_name
 FROM job_postings_fact
